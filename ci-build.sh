@@ -1,5 +1,5 @@
 #!/bin/bash
 
 docker-compose rm -f 
-docker rmi -f jenkins_myapp
+docker rmi -f workspace_myapp_1
 docker-compose up
