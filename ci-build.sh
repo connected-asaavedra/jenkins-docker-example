@@ -1,5 +1,6 @@
 #!/bin/bash
 
+docker rm -f myapp_test_1 || :
 docker rmi -f myapp_tests || :
 docker-compose -f docker-compose-tests.yml up --build
 exit_code=$?
