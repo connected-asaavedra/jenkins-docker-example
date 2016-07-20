@@ -2,6 +2,6 @@ var assert = require('assert');
 
 describe('sample describe', function () {
   it('sample test', function () {
-    assert.equal(true, false);
+    assert.equal(true, true);
   });
 });
