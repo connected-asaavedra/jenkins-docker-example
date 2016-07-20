@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  tests:
+    build: .
+    image: myapp_tests
+    container_name: myapp_test_1

@@ -4,4 +4,5 @@ RUN  mkdir /project
 COPY . /project
 RUN chmod 755 /project/run.sh
 WORKDIR /project
-RUN . ./run.sh
+
+RUN sh ./run.sh
